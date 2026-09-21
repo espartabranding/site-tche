@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tchê Assados e Sabores — Frango assado, polenta frita e maionese caseira</title>
+<meta name="description" content="Frango assado inteiro, meio frango, polenta frita crocante e maionese temperada caseira. Tempero especial da casa, assado lentamente. Monte seu pedido e envie pelo WhatsApp (51) 98452-8139.">
+<meta name="theme-color" content="#070504">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="apple-touch-icon" href="assets/img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Tchê Assados e Sabores — Assado na hora, feito com carinho">
+<meta property="og:description" content="Combo Família a partir de R$ 80,00. Frango assado inteiro, polenta frita e maionese temperada caseira.">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Yellowtail&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#cardapio">Pular para o cardápio</a>
+
+<!-- ============ TOPBAR ============ -->
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <span class="topbar__item"><svg class="i"><use href="#i-fire"/></svg> Assado na hora, tempero da casa</span>
+    <span class="topbar__item topbar__item--hide"><svg class="i"><use href="#i-heart"/></svg> Ingredientes selecionados</span>
+    <a class="topbar__item topbar__zap" href="#" data-zap><svg class="i"><use href="#i-zap"/></svg> (51) 98452-8139</a>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="hd" id="topo">
+  <div class="wrap hd__in">
+    <a class="brand" href="#topo">
+      <span class="brand__mark"><img src="assets/img/logo.png" alt="Tchê Assados e Sabores" width="92" height="92"></span>
+      <span class="brand__txt">
+        <strong>Tchê</strong>
+        <small>Assados e Sabores</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#combos">Combos</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#como">Como pedir</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+
+    <div class="hd__act">
+      <button class="btn btn--cart" data-open-cart>
+        <svg class="i"><use href="#i-bag"/></svg>
+        <span class="btn--cart__t">Meu pedido</span>
+        <b class="badge" data-cart-count hidden>0</b>
+      </button>
+      <button class="burger" aria-label="Abrir menu" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__bg">
+    <img src="assets/img/hero.jpg" alt="Frango assado inteiro dourado, servido na tábua de madeira" fetchpriority="high">
+  </div>
+  <div class="smoke" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
+  <div class="hero__in">
+    <div class="hero__top">
+      <p class="eyebrow"><span></span> Tradição gaúcha no ponto certo <span></span></p>
+      <h1>
+        <span class="d1">Frango assado</span>
+        <span class="d2">que reúne a família</span>
+      </h1>
+    </div>
+
+    <div class="hero__bottom">
+      <p class="hero__sub">Tempero especial da casa, assado lentamente e cheio de sabor.</p>
+      <div class="hero__cta">
+        <a class="btn btn--gold btn--lg" href="#cardapio"><svg class="i"><use href="#i-bag"/></svg> Montar meu pedido</a>
+        <a class="btn btn--ghost btn--lg" href="#combos">Ver os combos</a>
+      </div>
+      <ul class="seals">
+        <li><svg class="i"><use href="#i-fire"/></svg> Assado na hora</li>
+        <li><svg class="i"><use href="#i-heart"/></svg> Feito com carinho</li>
+        <li><svg class="i"><use href="#i-cutlery"/></svg> Sabor que você ama</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hero__tag">
+    <span>Porções a partir de</span>
+    <strong data-menor-preco>R$ 10</strong>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__t">
+    <span>Feito com amor ★ Ingredientes selecionados ★ Assado na hora ★ Receita especial da casa ★ Sempre fresquinho ★ Tempero de família ★&nbsp;</span>
+    <span>Feito com amor ★ Ingredientes selecionados ★ Assado na hora ★ Receita especial da casa ★ Sempre fresquinho ★ Tempero de família ★&nbsp;</span>
+  </div>
+</div>
+
+<!-- ============ COMBOS ============ -->
+<section class="sec" id="combos">
+  <div class="wrap">
+    <header class="sec__hd">
+      <p class="eyebrow"><span></span> Os mais pedidos <span></span></p>
+      <h2 class="title">Combo <em>Família</em></h2>
+      <p class="sec__sub">Frango assado inteiro, maionese e uma porção de polenta frita. A refeição completa — e você ainda acrescenta o que quiser antes de enviar o pedido.</p>
+    </header>
+    <div class="combos" data-combos></div>
+  </div>
+</section>
+
+<!-- ============ CARDÁPIO ============ -->
+<section class="sec sec--alt" id="cardapio">
+  <div class="wrap">
+    <header class="sec__hd">
+      <p class="eyebrow"><span></span> Monte seu pedido <span></span></p>
+      <h2 class="title">Cardápio <em>completo</em></h2>
+      <p class="sec__sub">Adicione quantos itens quiser — combos, assados e porções individuais. O total aparece na hora e, no final, o pedido vai formatado pro WhatsApp.</p>
+    </header>
+
+    <div class="filters" data-filters>
+      <button class="chip is-on" data-filter="todos">Tudo</button>
+      <button class="chip" data-filter="combo">Combos</button>
+      <button class="chip" data-filter="assado">Assados</button>
+      <button class="chip" data-filter="porcao">Porções</button>
+    </div>
+
+    <div class="grid" data-menu></div>
+
+    <p class="note"><svg class="i"><use href="#i-info"/></svg> <span>A <b>Maionese Temperada</b> é feita somente por encomenda — peça com antecedência. Precisa de uma quantidade maior para festa ou evento? Escreva nas observações do pedido.</span></p>
+  </div>
+</section>
+
+<!-- ============ COMO PEDIR ============ -->
+<section class="sec" id="como">
+  <div class="wrap">
+    <header class="sec__hd">
+      <p class="eyebrow"><span></span> Simples assim <span></span></p>
+      <h2 class="title">Como <em>pedir</em></h2>
+    </header>
+    <ol class="steps">
+      <li>
+        <span class="steps__n">1</span>
+        <h3>Monte o pedido</h3>
+        <p>Escolha combos, assados e porções individuais. Vá acrescentando o que quiser e ajuste as quantidades — o total é calculado na hora.</p>
+      </li>
+      <li>
+        <span class="steps__n">2</span>
+        <h3>Envie pelo WhatsApp</h3>
+        <p>Com um toque, o pedido vai formatado direto pra nossa conversa. Confirmamos horário e forma de pagamento.</p>
+      </li>
+      <li>
+        <span class="steps__n">3</span>
+        <h3>Retire quentinho</h3>
+        <p>Retirada no balcão ou entrega combinada. Saiu do forno, foi pra mesa.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="sec sec--alt" id="sobre">
+  <div class="wrap about">
+    <div class="about__txt">
+      <p class="eyebrow"><span></span> Nossa história <span></span></p>
+      <h2 class="title">Tempero de <em>casa</em>, fogo de galpão</h2>
+      <p>No Rio Grande do Sul, comida boa é assunto sério — e é feita com tempo. É assim que a gente trabalha: tempero especial da casa, assado lentamente, sem pressa e sem atalho, até a pele ficar dourada e a carne soltar no garfo.</p>
+      <p>A polenta sai crocante por fora e macia por dentro. A maionese é caseira, com ingredientes selecionados e preparada por encomenda para chegar sempre fresquinha na sua mesa.</p>
+      <ul class="about__list">
+        <li><svg class="i"><use href="#i-check"/></svg> Receita especial da casa</li>
+        <li><svg class="i"><use href="#i-check"/></svg> Ingredientes selecionados</li>
+        <li><svg class="i"><use href="#i-check"/></svg> Assado lentamente, na hora</li>
+        <li><svg class="i"><use href="#i-check"/></svg> Feito com muito amor</li>
+      </ul>
+      <a class="btn btn--zap" href="#" data-zap><svg class="i"><use href="#i-zap"/></svg> Falar com a gente</a>
+    </div>
+    <div class="about__img">
+      <img src="assets/img/produtos/frango-inteiro.jpg" alt="Frango assado dourado com tempero especial da casa" loading="lazy">
+      <div class="about__stamp">
+        <small>Suculento</small>
+        <strong>Ideal para reunir a família</strong>
+        <svg class="i"><use href="#i-heart"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIA ============ -->
+<section class="sec" id="galeria">
+  <div class="wrap">
+    <header class="sec__hd">
+      <p class="eyebrow"><span></span> Dá água na boca <span></span></p>
+      <h2 class="title">Nossas <em>delícias</em></h2>
+      <p class="sec__sub">Toque para ampliar.</p>
+    </header>
+    <div class="gal" data-gallery></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec sec--alt" id="duvidas">
+  <div class="wrap wrap--narrow">
+    <header class="sec__hd">
+      <p class="eyebrow"><span></span> Perguntas frequentes <span></span></p>
+      <h2 class="title">Ficou com <em>dúvida?</em></h2>
+    </header>
+    <div class="faq" data-faq></div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="cta">
+  <div class="wrap cta__in">
+    <h2 class="title">Bateu a <em>fome?</em></h2>
+    <p>Monte seu pedido pelo cardápio ou chame a gente direto no WhatsApp. Encomendas com antecedência são sempre bem-vindas.</p>
+    <div class="cta__btns">
+      <a class="btn btn--gold btn--lg" href="#cardapio"><svg class="i"><use href="#i-bag"/></svg> Montar meu pedido</a>
+      <a class="btn btn--zap btn--lg" href="#" data-zap><svg class="i"><use href="#i-zap"/></svg> (51) 98452-8139</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ft">
+  <div class="wrap ft__in">
+    <div class="ft__col">
+      <a class="brand" href="#topo">
+        <span class="brand__mark" style="width:82px;height:82px"><img src="assets/img/logo.png" alt="" width="82" height="82"></span>
+        <span class="brand__txt"><strong>Tchê</strong><small>Assados e Sabores</small></span>
+      </a>
+      <p class="ft__p">Assados, polenta frita e maionese caseira feitos com ingredientes selecionados e muito amor.</p>
+    </div>
+    <div class="ft__col">
+      <h4>Cardápio</h4>
+      <a href="#combos">Combo Família</a>
+      <a href="#cardapio">Frango assado inteiro</a>
+      <a href="#cardapio">Meio frango assado</a>
+      <a href="#cardapio">Polenta frita</a>
+      <a href="#cardapio">Maionese temperada</a>
+    </div>
+    <div class="ft__col">
+      <h4>Atendimento</h4>
+      <a href="#" data-zap><svg class="i"><use href="#i-zap"/></svg> (51) 98452-8139</a>
+      <p class="ft__p" data-horario></p>
+      <p class="ft__p" data-endereco></p>
+    </div>
+  </div>
+  <div class="wrap ft__bar">
+    <span>© <span data-ano></span> Tchê Assados e Sabores. Todos os direitos reservados.</span>
+    <span>Imagens meramente ilustrativas.</span>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLUTUANTE ============ -->
+<a class="fab" href="#" data-zap aria-label="Falar no WhatsApp">
+  <svg class="i"><use href="#i-zap"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<!-- ============ BARRA DE PEDIDO ============ -->
+<div class="orderbar" data-orderbar>
+  <div class="wrap orderbar__in">
+    <div class="orderbar__info">
+      <span class="orderbar__n" data-ob-count>0</span>
+      <span class="orderbar__txt">
+        <b data-ob-label>itens no pedido</b>
+        <span data-ob-list></span>
+      </span>
+    </div>
+    <div class="orderbar__right">
+      <strong class="orderbar__total" data-ob-total>R$ 0,00</strong>
+      <button class="btn btn--gold" data-open-cart>Ver pedido</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CARRINHO ============ -->
+<div class="drawer" data-drawer hidden>
+  <div class="drawer__ov" data-close-cart></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Meu pedido">
+    <header class="drawer__hd">
+      <h3><svg class="i"><use href="#i-bag"/></svg> Meu pedido</h3>
+      <button class="drawer__x" data-close-cart aria-label="Fechar">&times;</button>
+    </header>
+
+    <div class="drawer__body" data-cart-body></div>
+
+    <form class="drawer__form" data-cart-form hidden>
+      <label><span class="lb">Seu nome</span>
+        <input type="text" name="nome" placeholder="Como te chamamos?" autocomplete="name">
+      </label>
+      <div class="seg">
+        <label class="seg__o"><input type="radio" name="modo" value="Retirada no local" checked><span>Retirada</span></label>
+        <label class="seg__o"><input type="radio" name="modo" value="Entrega"><span>Entrega</span></label>
+      </div>
+      <label data-endereco-field hidden><span class="lb">Endereço de entrega</span>
+        <input type="text" name="endereco" placeholder="Rua, número, bairro e referência">
+      </label>
+      <label><span class="lb">Observações <small>(opcional)</small></span>
+        <textarea name="obs" rows="2" placeholder="Ex.: pode ser para as 19h"></textarea>
+      </label>
+    </form>
+
+    <footer class="drawer__ft" data-cart-foot hidden>
+      <div class="drawer__total">
+        <span>Total</span>
+        <strong data-cart-total>R$ 0,00</strong>
+      </div>
+      <button class="btn btn--zap btn--lg btn--block" data-send>
+        <svg class="i"><use href="#i-zap"/></svg> Enviar pedido no WhatsApp
+      </button>
+      <button class="drawer__clear" data-clear>Limpar pedido</button>
+    </footer>
+  </aside>
+</div>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lb" data-lb hidden>
+  <button class="lb__x" data-lb-close aria-label="Fechar">&times;</button>
+  <button class="lb__nav lb__nav--prev" data-lb-prev aria-label="Anterior">&#8249;</button>
+  <img src="" alt="" data-lb-img>
+  <button class="lb__nav lb__nav--next" data-lb-next aria-label="Próximo">&#8250;</button>
+</div>
+
+<div class="toast" data-toast hidden></div>
+
+<!-- ============ ÍCONES ============ -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.82 2.42a8.17 8.17 0 0 1 2.42 5.82c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24m-2.9 4.1c-.16 0-.4.06-.61.3-.21.23-.8.79-.8 1.92s.82 2.23.94 2.38c.12.16 1.62 2.47 3.93 3.46.55.24.98.38 1.31.49.55.17 1.05.15 1.45.09.44-.07 1.36-.56 1.55-1.09.19-.54.19-1 .14-1.09-.06-.1-.21-.16-.44-.28-.23-.11-1.36-.67-1.57-.75-.21-.07-.37-.11-.52.12-.16.23-.6.75-.73.9-.14.16-.27.18-.5.06-.23-.12-.97-.36-1.85-1.14-.68-.61-1.15-1.36-1.28-1.59-.14-.23-.02-.35.1-.47.1-.1.23-.27.35-.41.11-.14.15-.24.23-.4.08-.16.04-.29-.02-.41-.06-.11-.52-1.25-.71-1.71-.19-.45-.38-.39-.52-.4z"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+  <symbol id="i-fire" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2s.7 3.2-1.5 5.4C8.3 9.6 6 11.2 6 14.5A6 6 0 0 0 18 15c0-2.4-1.2-3.8-2.2-5.2-.4 1-1.1 1.7-1.9 2 .6-2.6-.3-5.9-1.9-9.8"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="currentColor" d="M12 20.7 4.6 13.4a4.6 4.6 0 0 1 6.5-6.5l.9.9.9-.9a4.6 4.6 0 0 1 6.5 6.5z"/></symbol>
+  <symbol id="i-cutlery" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 3v7a2 2 0 0 0 4 0V3M8 12v9M17 3c-1.5 1.5-2 3-2 5s.5 3 2 3v10"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18M12 11v5M12 7.6v.2"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M12 6v12M6 12h12"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.5 6.1 20.6l1.2-6.5L2.5 9.5l6.6-.9z"/></symbol>
+</svg>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

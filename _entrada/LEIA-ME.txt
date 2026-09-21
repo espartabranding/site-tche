@@ -1,0 +1,6 @@
+Salve aqui os arquivos originais e rode:
+
+    uv run --with pillow python ferramentas/assets.py
+
+  logo.png  -> logotipo em alta (pode estar com fundo verde; o script remove)
+  hero.jpg  -> foto de fundo do hero
