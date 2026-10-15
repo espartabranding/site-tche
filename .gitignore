@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Segredos — nunca versionar
+.env
+.env.*
+!.env.example
+!.env.exemplo
+*.pem
+*.key
+credentials.json
